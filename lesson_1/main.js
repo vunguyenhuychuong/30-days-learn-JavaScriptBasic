@@ -54,23 +54,36 @@
 // x-- giảm giá trị biến xuống 1 và trả về giá trị trước khi giảm
 // --x giảm giá trị biến xuống 1 và trả về giá trị sau khi giảmm
 
-console.log('--- Hậu tố ---');
+// console.log('--- Hậu tố ---');
 
-var number1 = 1;
+// var number1 = 1;
 
-console.log(number1++); // 1
-console.log(number1); // 2
+// console.log(number1++); // 1
+// console.log(number1); // 2
 
-console.log(number1++); // 2
-console.log(number1); // 3
+// console.log(number1++); // 2
+// console.log(number1); // 3
 
-console.log('--- Tiền tố ---');
+// console.log('--- Tiền tố ---');
 
-var number2 = 1;
+// var number2 = 1;
 
-console.log(++number2); // 2
-console.log(number2); // 2
+// console.log(++number2); // 2
+// console.log(number2); // 2
 
-console.log(++number2); // 3
-console.log(number2); // 3
+// console.log(++number2); // 3
+// console.log(number2); // 3
+
+var a = 6;
+
+//Việc 1: + 1 cho a, a = a + 1 => a = 7
+//Việc 2: Trả về a sau khi được + 1
+
+var output = ++a; // 6
+//Việc 1: a copy, a copy = 6
+var result = a--;//6
+//việc 2 : trừ 1 của aa, a = a - 1 => a = 5
+//việc 3: Trả về a copy
+
+console.log('output: ' , output);
 
