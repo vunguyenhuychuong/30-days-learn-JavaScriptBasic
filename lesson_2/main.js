@@ -81,5 +81,21 @@ var b ='1';
     * 
 */
 // === so sánh vả value và cả type
-console.log(a !== b)
+// console.log(a !== b)
+
+// Hiểu hơn về câu lệnh điều kiện
+// và phép so sánh
+
+var a = 1;
+var b = 2;
+
+// var result = 'A ' && 'B' && 'C'  && NaN && 'D';
+var result = 'A ' || 'B' || 'C'  || NaN || 'D';
+
+if(result) {
+    console.log('Dieu kien  dung');
+}else{
+    console.log('Dieu kien sai');
+}
+
 
