@@ -45,6 +45,7 @@ console.log(Array.isArray({}))
  * 7.Splicing  đặt con trỏ vào vị trí [] đến tham số thứ 2 xóa phần tử đó
  * 8.Concat hợp nhất 2 mảng hoặc nhiều mảng
  * 9.Slicing cắt phần tử đếm từ vị trí cuối mảng
+ * 
  */
 
 var languages = [
