@@ -163,3 +163,43 @@ var array = ['Javacript', 'PHP', 'Ruby'];
 loop(0, array.length - 1 , function(index){
     console.log('index: ', index);
 });
+
+/* 
+    Array methods :
+     forEach()
+     every()
+     some()
+     find()
+     filter()
+     map()
+     reduce()
+*/
+
+var course = [
+    {
+        id: 1,
+        name: 'JavaScript',
+        coin: 250
+    },
+    {
+        id: 2,
+        name: 'HTML,CSS',
+        coin: 0
+    },
+    {
+        id: 3,
+        name: 'PHP',
+        coin: 150
+    }
+
+];
+
+// console.forEach(function(){
+//     console.log(course);
+// });
+var isFree = courses.every(function(course, index){
+    console.log(index)
+    return course.coin === 0;
+});
+
+console.log(isFree);
